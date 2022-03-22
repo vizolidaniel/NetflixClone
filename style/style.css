@@ -102,3 +102,29 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+
+.stars{
+    color: var(--vermelho);
+}
+
+.form-popup{
+   font-size: 14px;
+   display: none;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.direcao{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.temporada{
+    margin-top: 10px;
+}

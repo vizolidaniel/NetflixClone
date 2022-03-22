@@ -37,13 +37,41 @@
                             <i class="fa-solid fa-play"></i>
                             ASSISTIR AGORA
                         </button>
-                    </a>
-                    <a href="info.html">
-                        <button class="botao" role="button" >
+                    </a>            
+                        <button class="botao" role="button" onclick="openPopup()">
                             <i class="fa-solid fa-circle-info"></i>
                             MAIS INFORMAÇÕES
                         </button>
-                    </a>
+                        <div class="form-popup" id="myPopup">
+                            <form action="/action_page.php" class="form-container">
+                                <div class="rating">
+                                    <h4>Avaliações: </h4>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star" ></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </span>
+                                    <h4>4.5</h4>
+                                </div>
+                                <div class="direcao">
+                                    <h4>Drew Goddard</h4> 
+                                    <p>Criação</p> 
+                                </div>
+                                <div class="direcao">
+                                    <h4>Steven S. DeKnight</h4> 
+                                    <p>Criação</p> 
+                                </div> 
+    
+                              <div class="temporada">
+                                <h4>Numero de Temporadas: 3</h4>
+                                <h4>Duração média: 51min/episódio</h4>
+                              </div>
+
+                              <button type="button" class="botao" onclick="closePopup()">Close</button>
+                            </form>
+                          </div>
                 </div>
             </div>
         </div>
